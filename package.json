@@ -1,0 +1,17 @@
+{
+  "name": "repro",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "bun": "1.2.21"
+  },
+  "scripts": {
+    "repro": "./repro"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
